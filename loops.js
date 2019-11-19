@@ -23,7 +23,7 @@ function incrementVariable(i) {
 
 function doWhileLoop(num) {
   do {
-    console.log('I run oncce regardless')
+    console.log('I run once regardless')
   }
   while (incrementVariable()<num)
 }

@@ -21,6 +21,9 @@ function incrementVariable(i) {
   return i;
 }
 
-function doWhileLoop(array) {
-  
+function doWhileLoop(num) {
+  do {
+    console.log('I run oncce regardless')
+  }
+  while (incrementVariable()<num)
 }

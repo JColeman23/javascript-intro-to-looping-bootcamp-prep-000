@@ -16,6 +16,11 @@ function whileLoop(n){
   return 'done'
 }
 
+function incrementVariable(i) {
+  i = i + 1;
+  return i;
+}
+
 function doWhileLoop(array) {
   
 }
